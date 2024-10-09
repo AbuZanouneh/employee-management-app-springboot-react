@@ -88,10 +88,45 @@ Once the application is running, you can access it at:
     - Axios
     - React Router
     - Bootstrap (optional, for styling)
-
+   
    * Others:
      - Git
      - Node.js
+   
+# Troubleshooting
+
+  * Backend Port Already in Use:
+    If port 8080 is occupied, change the server port in application.properties:
+
+    ``` properties
+        server.port=8081
+
+  * Database Connection Issues:
+
+     * Ensure MySQL is running.
+     * Verify database credentials in application.properties.
+     * Check if the database employee_db exists. If not, create it:
+
+    ``` properties
+        CREATE DATABASE employee_db;
+
+ * Frontend Not Connecting to Backend:
+
+    * Ensure the backend server is running.
+    * Verify the API base URL in the frontend configuration.
+    * Check for CORS issues and configure CORS in the backend if necessary.
+      
+ * Dependency Issues:
+
+    * For Maven: Run mvn clean install to resolve dependencies.
+    * For npm: Run npm install to install missing packages.
+      
+ * Environment Variables Not Loading:
+
+    * Ensure .env files are correctly placed in the frontend directory.
+    * Restart the development server after adding or modifying .env files. 
+
+
 
 
    
