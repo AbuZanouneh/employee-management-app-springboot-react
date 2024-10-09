@@ -35,9 +35,9 @@ Before running the application, ensure you have the following installed:
     -- bash
        mvn spring-boot:run
 
-4. Accessing the Application
-   Once the application is running, you can access it at:
+## Accessing the Application
 
+Once the application is running, you can access it at:
 -- URL: http://localhost:8080
 
 
