@@ -33,8 +33,19 @@ Run the SQL script in your database management system to create the necessary ta
 
    ``` bash
        git clone https://github.com/AbuZanouneh/employee-management-springboot.git
+   
+3. Add or replace the following lines in the src/main/resources/application.properties file with your MySQL credentials:
 
-3. Running the Application
+    ``` java
+        # MySQL Database Configuration
+        spring.application.name=employee-management
+        spring.datasource.url=jdbc:mysql://localhost:3306/employee_management?useSSL=false&serverTimezone=UTC
+        spring.datasource.username=your_mysql_username
+        spring.datasource.password=your_mysql_password
+        # spring.jpa.hibernate.ddl-auto=update
+        spring.jpa.show-sql=true
+
+4. Running the Application
 
 * Build the Project
    
@@ -46,7 +57,7 @@ Run the SQL script in your database management system to create the necessary ta
     ``` bash
         mvn spring-boot:run
 
-# Accessing the Application
+* Accessing the Application
 
 Once the application is running, you can access it at:
 -- URL: http://localhost:8080
