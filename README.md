@@ -76,5 +76,22 @@ Once the application is running, you can access it at:
    This command starts the development server and opens the app in your default browser at:
    -- URL: http://localhost:3000
 
+# Technologies Used
+  * Backend:
+    - Spring Boot
+    - Spring Data JPA
+    - MySQL (or any other relational database)
+    - Maven
+      
+  * Frontend:
+    - React
+    - Axios
+    - React Router
+    - Bootstrap (optional, for styling)
+
+   * Others:
+     - Git
+     - Node.js
+
 
    
