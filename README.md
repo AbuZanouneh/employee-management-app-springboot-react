@@ -61,3 +61,20 @@ Run the SQL script in your database management system to create the necessary ta
 
 Once the application is running, you can access it at:
 -- URL: http://localhost:8080
+
+## Frontend
+
+1. Navigate to the Frontend Directory
+
+   ``` bash
+       cd employee-management-app-springboot-react/frontend
+2. Start the React Application
+   
+    ``` bash
+        npm start
+3. Accessing the Application
+   This command starts the development server and opens the app in your default browser at:
+   -- URL: http://localhost:3000
+
+
+   
