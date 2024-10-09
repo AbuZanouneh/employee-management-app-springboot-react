@@ -14,26 +14,26 @@ Before running the application, ensure you have the following installed:
 1. Clone the Repository
    If you haven't cloned the repository yet, open your terminal and run:
    
-   -- bash
+   ``` bash
     git clone https://github.com/AbuZanouneh/employee-management-springboot.git
 
 
 2. Navigate to the Project Directory
 
-   -- bash
-    git clone https://github.com/AbuZanouneh/employee-management-springboot.git
+   ``` bash
+       git clone https://github.com/AbuZanouneh/employee-management-springboot.git
 
 3. Running the Application
 
-   -- Build the Project
+* Build the Project
    
-    -- bash
-       mvn clean install
+    ``` bash
+        mvn clean install
 
-   -- Run the Application
+* Run the Application
 
-    -- bash
-       mvn spring-boot:run
+    ``` bash
+        mvn spring-boot:run
 
 ## Accessing the Application
 
