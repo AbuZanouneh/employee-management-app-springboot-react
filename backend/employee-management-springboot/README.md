@@ -15,7 +15,7 @@ Before running the application, ensure you have the following installed:
    If you haven't cloned the repository yet, open your terminal and run:
    
    ``` bash
-    git clone https://github.com/AbuZanouneh/employee-management-springboot.git
+       git clone https://github.com/AbuZanouneh/employee-management-springboot.git
 
 
 2. Navigate to the Project Directory
