@@ -17,3 +17,36 @@ To set up the database, you must first create it using the provided SQL file:
 
 Locate the employee_management_db.sql file in the project folder.
 Run the SQL script in your database management system to create the necessary tables and data.
+
+
+# Getting Started
+
+## Backend 
+1. Clone the Repository
+   If you haven't cloned the repository yet, open your terminal and run:
+   
+   ``` bash
+       git clone https://github.com/AbuZanouneh/employee-management-springboot.git
+
+
+2. Navigate to the Project Directory
+
+   ``` bash
+       git clone https://github.com/AbuZanouneh/employee-management-springboot.git
+
+3. Running the Application
+
+* Build the Project
+   
+    ``` bash
+        mvn clean install
+
+* Run the Application
+
+    ``` bash
+        mvn spring-boot:run
+
+# Accessing the Application
+
+Once the application is running, you can access it at:
+-- URL: http://localhost:8080
